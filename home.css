@@ -1,0 +1,712 @@
+/** story element **/ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.story-1, .storyup-1{
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.story-1:hover{
+  width: 151px;
+  height: 201px;
+  cursor: pointer;
+}
+
+#container-1{
+  text-align: center;
+  position: relative;
+  top: 300px;
+  left: 500px;
+  display: grid;
+  grid-template-columns: repeat(6,160px);
+  width: 1%;
+  z-index: 1;
+}
+
+/** story design **/ 
+
+#container-1 .story-1{
+  position: relative;
+  top: -200px;
+  left: -160px;
+}
+#str-1{
+  height: 130px;
+}
+#storyelm-1 > i{
+  font-size: 160%;
+  position: relative;
+  left: -160px;
+  top: -220px;
+  color: rgb(0, 204, 255);
+  z-index: 2;
+  cursor: pointer;
+}
+#storyelm-1 > h5{
+  position: relative;
+  left: -155px;
+  top: -232px;
+  font-size: 100%;
+  background: gray;
+  padding: 27px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 150px;
+}
+
+
+/** set border radius **/ 
+.storyup-1{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: -210px;
+  top: -388px;
+  border: rgb(0, 58, 248) solid 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.downname{
+  position: relative;
+  left: -180px;
+  top: -260px;
+  font-size: 90%;
+  font-weight: bold;
+  z-index: 2;
+}
+
+
+.rowright{
+  font-size: 190%;
+  border-radius: 50%;
+  position: absolute;
+  left: 465px;
+  top: -115px;
+  z-index: 3;
+  color: rgb(70, 68, 68);
+  cursor: pointer;
+}
+
+/** maine set **/ 
+
+#container-4{
+  position: relative;
+  left: 415px;
+  top: 80px;
+  background: rgb(37, 36, 36);
+  width: 500px;
+  height: 125px;
+  border-radius: 8px;
+}
+.mainprofile{
+ width: 45px;
+ height: 35px;
+ border-radius: 50%;
+}
+.main-2{
+  position: relative;
+  left: 415px;
+  top: 100px;
+  background: rgb(37, 36, 36);
+  width: 500px;
+  border-radius: 8px;
+  height: 76px;
+  
+}
+.active{
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  position: relative;
+  left: 198px;
+  top: -30px;
+}
+.room > i{
+font-size: 170%;
+color: rgb(235, 7, 235);
+position: relative;
+top: 10px;
+left: 10px;
+}
+.room{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background: rgb(104, 101, 101);
+  position: relative;
+  top: 13px;
+  left: 16px;
+  cursor: pointer;
+}
+.main-text{
+  width: 100px;
+  position: relative;
+  left: 49px;
+  top: -10px;
+  
+}
+
+/** **/
+
+.statuss{
+  position: relative;
+  top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  cursor: pointer; 
+ 
+}
+
+.main-1{
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+.main-1 .status{
+  width: 400px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  background: rgb(207, 204, 204);
+  margin-left: 10px;
+  position: relative;
+  top: -10px;
+}
+.main-1 .mprofile{
+  width: 45px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  
+}
+#container-4 hr{
+  position: relative;
+  top: 23px;
+  left: 20px;
+  width: 458px;
+  border: rgb(77, 76, 76) solid 1px;
+}
+
+#emo, .status-emogie{
+  position: relative;
+  left: 260px;
+  top: -93px;
+  
+}
+#emo{
+  font-size: 170%;
+  color: yellow;
+  margin-left: 10px;
+  margin-top: -8px;
+  cursor: pointer;
+}
+.status-emogie{
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+#phuto, .status-photo{
+  position: relative;
+  left: 200px;
+  top: -93px;
+  
+}
+#phuto{
+  font-size: 170%;
+  color: rgb(7, 187, 7);
+  position: relative;
+  left: 55px;
+  top: -70px;
+  cursor: pointer;
+}
+.status-photo{
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+#video, .status-video{
+  position: relative;
+  left: 25px;
+  top: -65px;
+  
+}
+#video{
+font-size: 170%;
+color: rgb(230, 67, 67);
+position: relative;
+top: -72px;
+cursor: pointer;
+}
+.status-video{
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+
+
+.pointactive{
+  position: relative;
+  left: 645px;
+  top: 70px;
+  width: 1%;
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  font-size: 70%;
+}
+
+#mainprofile-1{
+  color: rgb(0, 255, 0);
+}
+#mainprofile-2{
+  color: rgb(0, 255, 0);
+  margin-left: 10px;
+}
+#mainprofile-3{
+  color: rgb(0, 255, 0);
+  margin-left: 21px;
+}
+#mainprofile-4{
+  color: rgb(0, 255, 0);
+  margin-left: 31px;
+}
+#mainprofile-5{
+  color: rgb(0, 255, 0);
+  margin-left: 41px;
+}
+
+
+
+/** set commontaire and mains **/ 
+
+#container-5{
+  background: rgb(37, 36, 36);
+  text-align: center;
+  position: relative;
+  top: 110px;
+  left: 415px;
+  width: 500px;
+  height: 800px;
+  border-radius: 15px;
+  
+}
+/** profile name and status **/ 
+#myprofile{
+  width: 45px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  left: -200px;
+  top: 15px;
+  cursor: pointer;
+
+}
+.namecmnt-1{
+  position: relative;
+  top: -20px;
+  left: -145px;
+  cursor: pointer;
+}
+.namecmnt-2{
+  position: relative;
+  top: -15px;
+  left: -166px;
+}
+#public{
+  position: relative;
+  top: -29px;
+  left: -135px;
+}
+#point{
+  position: relative;
+  left: 190px;
+  top: 7px;
+  font-size: 140%;
+  cursor: pointer;
+}
+.ktiba{
+  font-size: 120%;
+  position: relative;
+  left: 165px;
+  top: -10px;
+}
+
+/** likes position **/ 
+
+#myprofile-1{
+  position: relative;
+  top: 20px;
+  left: 0px;
+  width: 500px;
+  height: 400px;
+}
+.likes{
+  position: relative;
+  left: -10px;
+  top: 80px;
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  
+}
+
+#share{
+  position: relative;
+  left: 200px;
+  top: -30px;
+  font-size: 120%;
+  cursor: pointer;
+}
+#tagg{
+  position: relative;
+  left: 100px;
+  top: -30px;
+  font-size: 120%;
+  cursor: pointer;
+}
+#like{
+  position: relative;
+  left: 30px;
+  top: -30px;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.commentair-3{
+cursor: pointer;
+position: relative;
+left: 185px;
+top: -27px;
+}
+ .commentair-2{
+  cursor: pointer;
+  position: relative;
+  left: 95px;
+  top: -27px;
+}
+ 
+.commentair-1{
+  cursor: pointer;
+  position: relative;
+left: 15px;
+top: -26px;
+}
+
+ 
+.hrr, .hrr-1{
+  width: 500px;
+  
+}
+.hrr{
+  position: relative;
+  left: 415px;
+  top: -100px;
+  z-index: 0;
+}
+.hrr-1{
+  position: relative;
+  left: 415px;
+  top: -160px;
+  z-index: 0;
+}
+.hrr > hr{
+  border: rgb(77, 75, 75) solid 1px;
+  z-index: 0;
+  
+}
+.hrr-1 > hr{
+  border: rgb(77, 75, 75) solid 1px;
+  z-index: 0;
+  
+}
+
+
+/** set comment **/
+
+.coment-photoo{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+.coment-photoo{
+  position: relative;
+  left: 435px;
+  top: -85px;
+}
+#coment-value{
+  width: 420px;
+  height: 33px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  top: -95px;
+  left: 435px;
+  background: rgb(207, 204, 204);
+  z-index: 0;
+}
+
+#smile, #cmnt-2, #send-cmnt{
+  font-size: 120%;
+}
+
+
+.input-emogie{
+  display: grid;
+  grid-template-columns: repeat(3, 25px);
+  position: relative;
+  left: 820px;
+  top: -120px;
+  width: 1%;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+  
+}
+
+#camera-2{
+  margin-top: 2px;
+}
+
+
+#commentfinal{
+  list-style: none;
+  width: 31%;
+  height: 30px;
+  position: relative;
+  left: 480px;
+  top: -80px;
+  z-index: 3;
+  border-radius: 13px;
+
+  
+}
+.tajouba{
+  margin-left: 3px;
+  position: relative;
+  top: -5px;
+  list-style: none;
+  background: rgb(49, 47, 47);
+  padding: 0px 15px;
+  padding-top: 5px;
+  border-radius: 13px;
+  margin-top: 5px;
+  width: 370px;
+  height: 25px;
+  box-shadow: 1px 1px 7px rgb(19, 156, 19);
+  
+  
+}
+.tajrib{
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+
+.deltBtn{
+  font-size: 70%;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  color: red;
+  font-weight: bolder;
+  background: transparent;
+  cursor: pointer;
+  
+}
+
+.cadre{
+ width: 480px;
+ height: 132px;
+ background: rgb(41, 36, 36);
+ border-radius: 13px;
+ position: relative;
+ left: 425px;
+ top: -125px;
+ z-index: 0;
+ border: rgb(224, 63, 63) solid 2px;
+ box-shadow: 3px 3px 5px rgb(226, 76, 76);
+ 
+}
+
+
+#like-1{
+  color: rgb(0, 153, 255);
+  font-size: 220%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+#like-1:hover{
+  
+  font-size: 260%;
+}
+#love{
+  color: rgb(209, 5, 5);
+  font-size: 220%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+#love:hover{
+  
+  font-size: 260%;
+}
+#care{
+  color: yellow;
+  font-size: 220%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+#care:hover{
+  
+  font-size: 260%;
+}
+#laught{
+  color: yellow;
+  font-size: 220%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+#laught:hover{
+  
+  font-size: 260%;
+}
+#angry{
+  color: rgb(180, 48, 0);
+  font-size: 220%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+#angry:hover{
+  
+  font-size: 260%;
+}
+
+
+#reaction{
+  position: absolute;
+  top: 1050px;
+  left: 420px;
+  display: none;
+}
+
+.photo-online-1{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.container-6{
+  margin-left: 1070px;
+  margin-top: -1400px;
+  position: fixed;
+  
+}
+.online-down{
+  display: grid;
+  grid-template-rows: repeat(10, 44px);
+  margin-top: 50px;
+}
+.text-online{
+  position: relative;
+  left: 52px;
+  top: -25px;
+}
+
+
+.contact-2{
+  display: flex;
+  
+}
+.contact-3{
+  font-size: 120%;
+ position: relative;
+ top: 29px;
+}
+#cont, #cont-1, #cont-2{
+  font-size: 120%;
+  cursor: pointer;
+}
+
+#cont{
+  position: relative;
+  left: 105px;
+  top: 30px;
+}
+#cont-1{
+  position: relative;
+  left: 115px;
+  top: 30px;
+}
+#cont-2{
+  position: relative;
+  left: 125px;
+  top: 30px;
+}
+.container-6  hr{
+  width: 280px;
+  position: relative;
+  top: 15px;
+  border: rgb(49, 44, 44) solid 1px;
+}
+
+
+.birthday{
+  font-size: 120%;
+  position: relative;
+  top: -5px;
+}
+
+.text-birth{
+  position: relative;
+  left: 30px;
+  top: -10px;
+}
+#gift{
+  position: relative;
+  top: 6px;
+  font-size: 140%;
+  color: red;
+  cursor: pointer;
+}
+
+.photo-online:hover{
+  background: rgb(43, 40, 40);
+  cursor: pointer;
+  border-radius: 2px;
+}
+.text-online{
+  position: relative;
+  top: -17px;
+  
+}
+.photo-online img{
+  position: relative;
+  top: 7px;
+}
+
+.point-online{
+  display: grid;
+  grid-template-rows: repeat(10, 44px);
+  font-size: 50%;
+  margin-left: 1103px;
+  margin-top: -1243px;
+  position: fixed;
+  z-index: 2;
+  
+}
+
+#point-online-1, #point-online-2, #point-online-3, #point-online-4{
+color: rgb(0, 255, 0);
+}
+#point-online-5, #point-online-6, #point-online-7, #point-online-8{
+  color: rgb(0, 255, 0);
+}
+#point-online-9, #point-online-10{
+  color: rgb(0, 255, 0);
+}
+

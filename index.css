@@ -1,0 +1,617 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  background: rgb(19, 17, 17);
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+/* start Work With Header */
+
+.profile-1{
+  width: 35px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+#profile{
+  display: flex;
+}
+header{
+  background: rgb(36, 32, 32);
+  display: flex;
+  height: 70px;
+  z-index: 4;
+  position: fixed;
+  width: 100%;
+  
+}
+i{
+  color: white;
+}
+i:hover{
+  color: rgb(187, 181, 181);
+}
+
+
+/* position of items and design */
+
+#setting{
+  position: relative;
+  left: 760px;
+  top: 23px;
+  font-size: 160%;
+  width: 1%;
+  display: grid;
+  grid-template-columns: repeat(4, 45px);
+  cursor: pointer;
+  z-index: 3;
+
+}
+#navbar{
+position: relative;
+left: 245px;
+top: 23px;
+font-size: 160%;
+display: grid;
+grid-template-columns: repeat(4, 90px);
+width: 1%;
+
+}
+#profile{
+  position: relative;
+  left: 730px;
+  top: 28px;
+  
+}
+.inputlogo #fblogo{
+  font-size: 260%;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  color: rgb(34, 0, 184);
+  cursor: pointer;
+  
+}
+#search{
+  height: 35px;
+  width: 260px;
+  border-radius: 30px;
+  border: solid 1px rgb(36, 32, 32);
+  background: rgb(231, 228, 228);
+  margin-top: 18px;
+  margin-left: 60px;
+
+}
+
+/* start using before */ 
+
+#play::after{
+  content: '4';
+  font-size: 80%;
+  padding: 1px 5px;
+  background: rgb(243, 52, 52);
+  border-radius: 50%;
+  position: absolute;
+  top: -9px;
+  margin-left: -7px;
+  z-index: 1;
+
+}
+
+#group::after{
+content: '7';
+font-size: 80%;
+padding: 1px 5px;
+background: rgb(243, 52, 52);
+  border-radius: 50%;
+  position: absolute;
+  top: -9px;
+  margin-left: -7px;
+  z-index: 1;
+}
+
+#mesngr::after{
+  content: '3';
+  font-size: 80%;
+  padding: 1px 5px;
+  background: rgb(243, 52, 52);
+  border-radius: 50%;
+  position: absolute;
+  top: -9px;
+  margin-left: -7px;
+  z-index: 1;
+}
+#bell::after{
+  content: '9';
+  font-size: 80%;
+  padding: 1px 5px;
+  background: rgb(243, 52, 52);
+  border-radius: 50%;
+  position: absolute;
+  top: -9px;
+  margin-left: -7px;
+  z-index: 1;
+}
+
+
+/* set the setting */
+#list{
+  list-style: none;
+  position: relative;
+  top: 30px;
+}
+#settingss{
+  position: relative;
+  right: 330px;
+  top: 15px;
+  width: 320px;
+  z-index: 3;
+  border: rgb(49, 48, 48) solid 1px;
+  height: 360px;
+  border-radius: 8px;
+  background: rgb(36, 32, 32);
+  line-height: 1.5;
+  display: none;
+}
+#prufile{
+  position: relative;
+  left: 5px;
+}
+.profile-2{
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+}
+.name-pro{
+  font-size: 70%;
+  position: relative;
+  left: 65px;
+  top: -32px;
+  width: 100px;
+}
+.help{
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  position: relative;
+  left: 5px;
+ 
+  
+}
+.help p{
+font-size: 50%;
+width: 200px;
+margin-left: 42px;
+}
+.feed{
+  font-size: 80%;
+  width: 200px;
+}
+
+.listsetting{
+  display: grid;
+  grid-template-columns: repeat(2,50px);
+  
+  
+}
+.nameset{
+  font-size: 80%;
+  width: 200px;
+  position: relative;
+  top: 5px;
+}
+/* lines */ 
+.line-1{
+  position: relative;
+  top: -13px;
+  
+}
+.line-2{
+  position: relative;
+  top: 13px;
+}
+
+.help i{
+  position: relative;
+  top: 7px;
+}
+/* list */
+
+#rightt{
+  position: relative;
+  left: 280px;
+  top: -20px;
+}
+#right{
+  position: relative;
+  left: 230px;
+  
+  
+}
+
+#nameset-1{
+  margin-left: 50px;
+  position: relative;
+  top: -26px;
+}
+
+
+/* fix padding */
+
+#pad-1{
+  
+  margin-top: -17px;
+}
+#pad-1 > i{
+  position: relative;
+  top: 10px;
+  margin-left: 5px;
+  
+}
+
+#pad-2{
+  
+  margin-top: 0px;
+}
+
+#pad-2 > i{
+position: relative;
+top: 12px;
+margin-left: 5px;
+}
+#pad-2 .nameset{
+  position: relative;
+  top: 12px;
+}
+#pad-2 #rightt{
+  position: relative;
+  top: -12px;
+}
+#pad-3{
+  
+  margin-top: 0px;
+}
+
+#pad-3 > i{
+position: relative;
+top: 12px;
+margin-left: 5px;
+}
+#pad-3 .nameset{
+  position: relative;
+  top: 12px;
+}
+#pad-3 #rightt{
+  position: relative;
+  top: -12px;
+}
+
+#pad-4{
+ 
+  margin-top: 0px;
+}
+
+#pad-4 > i{
+position: relative;
+top: 12px;
+margin-left: 5px;
+}
+#pad-4 .nameset{
+  position: relative;
+  top: 12px;
+}
+#pad-4 #rightt{
+  position: relative;
+  top: -12px;
+}
+#pad-3:hover{
+  background: rgb(48, 46, 46);
+}
+#pad-2:hover{
+  background: rgb(48, 46, 46);
+}
+#pad-1:hover{
+  background: rgb(48, 46, 46);
+}
+#pad-4:hover{
+  background: rgb(48, 46, 46);
+}
+
+
+/* Asdide content */ 
+
+.profile-pic{
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+}
+#leftt{
+  position: fixed;
+  margin-top: 90px;
+  margin-left: 15px;
+  line-height: 4;
+  width: 320px;
+}
+#leftt hr{
+  border: rgb(54, 50, 50) solid 1px;
+}
+.items-3{
+  display: flex;
+}
+.item-text{
+  position: relative;
+  left: 20px;
+  top: -15px;
+}
+
+#leftt i {
+  font-size: 140%;
+}
+/** text position **/ 
+
+#brahim{
+  margin-left: -3px;
+}
+
+#gr{
+  margin-left: -1px;
+}
+#wa, #ev, #see{
+  margin-left: 5px;
+}
+
+
+/** icon color **/ 
+#items-friends i {
+  color: rgb(54, 162, 235);
+}
+#items-recent i {
+  color: rgb(0, 55, 175);
+}
+#items-favorite i {
+  color: rgb(216, 161, 9);
+}
+#items-group i {
+  color: rgb(0, 102, 255);
+}
+#items-market i {
+  color: rgb(9, 57, 216);
+}
+#items-watch i {
+  color: rgb(0, 89, 255);
+  margin-left: 5px;
+}
+#items-event i {
+  color: rgb(243, 113, 113);
+  margin-left: 5px;
+}
+#items-more i {
+  
+  margin-left: 5px;
+}
+
+/** hover items **/ 
+.items-3{
+  cursor: pointer;
+}
+
+#items-profile{
+  margin-top: -20px;
+  margin-left: -10px;
+  
+}
+#items-profile > img {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-profile > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-profile:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+#items-friends{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-friends > i {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-friends > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-friends:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+
+#items-recent{
+  margin-top: -10px;
+  margin-left: -10px;
+  
+}
+#items-recent > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-recent > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-recent:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+
+#items-favorite{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-favorite > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-favorite > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-favorite:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+
+
+#items-group{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-group > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-group > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-group:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+
+#items-market{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-market > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-market > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-market:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+
+
+#items-watch{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-watch > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-watch > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-watch:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+
+#items-event{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-event > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-event > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-event:hover{
+  background: rgb(56, 52, 52);
+  border-radius: 2px;
+}
+#items-more{
+  margin-top: -5px;
+  margin-left: -10px;
+  
+}
+#items-more > i{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#items-more > h5 {
+  position: relative;
+  top: -1px;
+  left: 25px;
+}
+#items-more > i:hover{
+  color: rgb(114, 110, 110);
+}
+
+
+/** set my pages **/
+
+.pagess{
+  width: 20%;
+  margin-top: -950px;
+  position: fixed;
+}
+
+.img-page{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: -5px;
+  left: 23px;
+  cursor: pointer;
+}
+.your-page{
+  font-size: 120%;
+  position: relative;
+  top: -20px;
+  left: 23px;
+}
+.name-page{
+  font-size: 85%;
+  position: relative;
+  top: -28px;
+  left: 73px;
+}
